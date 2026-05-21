@@ -38,6 +38,45 @@ GlobalAlignment/
 
 ---
 
+## Input
+
+The program reads all required data from a text file. The file must contain the
+following values in order, each on its own line:
+
+1. Sequence 1
+2. Sequence 2
+3. Match score (integer)
+4. Mismatch penalty (integer)
+5. Gap penalty (integer)
+
+Example:
+
+GATTACA
+GCATGCU
+1
+-1
+-2
+
+---
+
+## Output
+
+The program writes the results to an output file containing:
+
+- The optimal global alignment of the two sequences
+- The final alignment score
+- (Optional) the scoring matrix used during computation
+
+Example:
+
+Alignment Score: 0
+
+G A T T A C A
+| |   |   | |
+G C A T - G C U
+
+---
+
 ## How to Run
 
 ### Running in IntelliJ IDEA
