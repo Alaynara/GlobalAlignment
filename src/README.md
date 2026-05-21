@@ -38,44 +38,6 @@ GlobalAlignment/
 
 ---
 
-## Input Format (`Data/input.txt`)
-
-The program expects five lines:
-
-<sequence1>
-<sequence2>
-Match <value>
-Mismatch <value>
-Gap <value>
-
-
-Example:
-GATTACA
-GCATGCU
-Match 1
-Mismatch -1
-Gap -2
-
-
----
-
-## Output Format (`Data/output.txt`)
-
-The output file contains:
-<optimal score>
-<aligned sequence 1>
-<aligned sequence 2>
-
-
-
-Example:
-0
-G-ATTACA
-GCAT-GCU
-
-
----
-
 ## How to Run
 
 ### Running in IntelliJ IDEA

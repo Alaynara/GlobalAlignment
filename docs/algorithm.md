@@ -54,11 +54,11 @@ This ensures the alignment spans the entire length of both sequences.
 
 For each cell (i, j), compute three possible scores:
 
-- Diagonal: score[i-1] [j-1] + match or mismatch
+- Diagonal: `score[i-1] [j-1]` + match or mismatch
 
-- Up: score[i-1] [j] + gap
+- Up: `score[i-1] [j]` + gap
 
-- Left: score[i] [j-1] + gap
+- Left: `score[i] [j-1]` + gap
 
 Choose the maximum of the three and store:
 
