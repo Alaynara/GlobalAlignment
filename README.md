@@ -52,10 +52,14 @@ following values in order, each on its own line:
 Example:
 
 GATTACA
+
 GCATGCU
-1
--1
--2
+
+Match 1
+
+Mismatch -1
+
+Gap -2
 
 ---
 
@@ -71,8 +75,8 @@ Example:
 
 Alignment Score: 0
 
-G A T T A C A
-| |   |   | |
+G A T T A C A -
+
 G C A T - G C U
 
 ---
